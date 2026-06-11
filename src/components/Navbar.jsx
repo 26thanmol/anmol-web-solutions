@@ -13,11 +13,14 @@ function Navbar() {
     <nav className="bg-white/95 backdrop-blur-md shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/">
-          <h1 className="text-2xl font-bold text-blue-600">
-            Anmol Web Solutions
-          </h1>
-        </Link>
+<Link to="/">
+  <h1
+  className="text-2xl font-bold text-blue-600"
+  style={{ fontFamily: "Exo 2, sans-serif" }}
+>
+  Anmol Web Solutions
+</h1>
+</Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">

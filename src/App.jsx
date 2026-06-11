@@ -17,6 +17,7 @@ import Projects from "./dashboard/Projects";
 import Clients from "./dashboard/Clients";
 import Messages from "./dashboard/Messages";
 import Settings from "./dashboard/Settings";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (

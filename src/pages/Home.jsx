@@ -25,41 +25,64 @@ function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white min-h-screen flex items-center">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="max-w-4xl">
-            <span className="bg-blue-600 px-4 py-2 rounded-full text-sm font-medium">
-              🚀 Professional Web Development Agency
-            </span>
+<section className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white min-h-[45vh] flex items-center">
+  <div className="max-w-7xl mx-auto px-6 py-6">
 
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mt-8">
-              Transform Your Business With A
-              <span className="text-blue-500"> Professional Website</span>
-            </h1>
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-            <p className="text-xl text-gray-300 mt-8 max-w-3xl">
-              We design and develop modern, responsive and high-converting
-              websites for startups, gyms, local businesses and professionals.
-            </p>
+      {/* Left Content */}
+      <div>
+        <span className="bg-blue-600 px-4 py-2 rounded-full text-sm font-medium">
+          🚀 Professional Web Development Agency
+        </span>
 
-            <div className="flex flex-wrap gap-4 mt-10">
-              <Link
-                to="/contact"
-                className="bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl font-semibold"
-              >
-                Get Free Quote
-              </Link>
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight mt-6">
+          We Build Websites That
+          <span className="text-blue-500"> Convert Visitors Into Customers</span>
+        </h1>
 
-              <Link
-                to="/portfolio"
-                className="border border-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-black transition"
-              >
-                View Portfolio
-              </Link>
-            </div>
-          </div>
+        <p className="text-xl text-gray-300 mt-8 max-w-2xl">
+          Modern, responsive and high-performing websites designed
+          to help businesses grow online and generate more leads.
+        </p>
+
+        <div className="flex flex-wrap gap-4 mt-10">
+          <Link
+            to="/contact"
+            className="bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl font-semibold"
+          >
+            Get Free Quote
+          </Link>
+
+          <Link
+            to="/portfolio"
+            className="border border-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-black transition"
+          >
+            View Portfolio
+          </Link>
         </div>
-      </section>
+
+        <div className="flex flex-wrap gap-6 mt-8 text-gray-300">
+          <span>✓ SEO Optimized</span>
+          <span>✓ Mobile Friendly</span>
+          <span>✓ Fast Delivery</span>
+          <span>✓ 24/7 Support</span>
+        </div>
+      </div>
+
+      {/* Right Side Logo */}
+      <div className="hidden lg:flex justify-center">
+        <img
+          src="/logo.png"
+          alt="Anmol Web Solutions"
+          className="w-full max-w-xl drop-shadow-2xl"
+        />
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Stats */}
       <section className="py-20 bg-white">
